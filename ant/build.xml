@@ -1,0 +1,18 @@
+<project default="run">
+<description>
+TK1 - programming assignment X
+--------------------------
+Group Members:
+Amit Bhanja
+Raghunath Deshpande
+Banashri Mandal
+</description>
+	<target name="run">
+		<parallel>
+			<ant antfile="../Tuple/build.xml" dir="../Tuple" target="Mandel" inheritAll="false" />
+			<ant antfile="../Tuple/build.xml" dir="../Tuple" target="Worker" inheritAll="false" />
+			<ant antfile="../Tuple/build.xml" dir="../Tuple" target="Worker" inheritAll="false" />
+		</parallel>
+	</target>
+</project>
+  
