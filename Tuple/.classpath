@@ -2,8 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Raghunath/Documents/tud/TK1/Exercise/Project/Project_Assignment_4/tspaces-2.1.2sp3/Tspaces/lib/tspaces.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Raghunath/Documents/tud/TK1/Exercise/Project/Project_Assignment_4/tspaces-2.1.2sp3/Tspaces/lib/tspaces_client.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Raghunath/Documents/tud/TK1/Exercise/Project/Project_Assignment_4/tspaces-2.1.2sp3/Tspaces/lib/tspaces_fixes.jar"/>
+	<classpathentry kind="lib" path="tspaces_client.jar"/>
+	<classpathentry kind="lib" path="tspaces_fixes.jar"/>
+	<classpathentry kind="lib" path="tspaces.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
